@@ -1,0 +1,71 @@
+$base-color: #FF7B24;
+@import 'sencha-touch/default/all';
+
+// You may remove any of the following modules that you
+// do not use in order to create a smaller css file.
+@include sencha-panel;
+@include sencha-buttons;
+@include sencha-sheet;
+@include sencha-picker;
+@include sencha-tabs;
+@include sencha-toolbar;
+@include sencha-toolbar-forms;
+@include sencha-indexbar;
+@include sencha-list;
+@include sencha-layout;
+@include sencha-carousel;
+@include sencha-form;
+@include sencha-msgbox;
+@include pictos-iconmask(chat1);
+@include pictos-iconmask(settings5);
+
+// Your custom code goes here...
+/*.x-toolbar-dark{
+	background:#FF7B24 !important;
+}*/
+
+#login-view .x-innerhtml{
+	color:white !important;
+	text-shadow:2px 2px 0px #333333;
+	text-align:center;
+}
+
+.acerca-qa{
+	border:1px solid #ACACAC;
+	border-radius:10px 10px 0 0;
+	margin-bottom:20px;
+}
+
+.acerca-qa div{
+	padding:5px;
+}
+
+.acerca-q{
+	background:#FFFB99;
+	font-weight:bold;
+	border-radius:10px 10px 0 0;
+}
+
+.x-button-back, .x-button-back:after,.x-toolbar-dark .x-button, .x-toolbar-dark .x-button.x-button-back::after, .x-toolbar-dark .x-button.x-button-forward::after, .x-toolbar .x-toolbar-dark .x-button, .x-toolbar .x-toolbar-dark .x-button.x-button-back::after, .x-toolbar .x-toolbar-dark .x-button.x-button-forward::after, .x-toolbar-dark .x-field-select .x-component-outer, .x-toolbar-dark .x-field-select .x-component-outer.x-button-back::after, .x-toolbar-dark .x-field-select .x-component-outer.x-button-forward::after, .x-toolbar .x-toolbar-dark .x-field-select .x-component-outer, .x-toolbar .x-toolbar-dark .x-field-select .x-component-outer.x-button-back::after, .x-toolbar .x-toolbar-dark .x-field-select .x-component-outer.x-button-forward::after, .x-toolbar-dark .x-field-select .x-component-outer::before, .x-toolbar-dark .x-field-select .x-component-outer::before.x-button-back::after, .x-toolbar-dark .x-field-select .x-component-outer::before.x-button-forward::after, .x-toolbar .x-toolbar-dark .x-field-select .x-component-outer::before, .x-toolbar .x-toolbar-dark .x-field-select .x-component-outer::before.x-button-back::after, .x-toolbar .x-toolbar-dark .x-field-select .x-component-outer::before.x-button-forward::after, .bottommsg{
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,#5a9922), color-stop(100%,#436000)) !important;
+	background: -webkit-linear-gradient(top,  #5a9922 1%,#436000 100%) !important;
+}
+
+.x-indexbar > div, .expositor .twitter a{
+	color: #5A9922;
+}
+
+.expositor .foto{
+	border-radius:100px;
+	float:left;
+	margin:0 10px 10px 0;
+	width:73px;
+	height:73px;
+	background:#DFDFDF;
+	border:1px solid #ACACAC;
+}
+
+.expositor .nombre{
+	font-weight:bold;
+}
+
